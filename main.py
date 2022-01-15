@@ -43,6 +43,17 @@ elif user_choice == 0 and pc_choice == 2:
 elif user_choice == 0 and pc_choice == 0:
   print(f"{rock}\nComputer chose:\n{rock}\nTie Game")
 
+elif user_choice == 1 and pc_choice == 0:
+  print(f"{paper}\nComputer chose:\n{rock}\nYou Win")
+
+elif user_choice == 1 and pc_choice == 1:
+  print(f"{paper}\nComputer chose:\n{paper}\nTie Game")
+
+elif user_choice == 1 and pc_choice == 2:
+  print(f"{paper}\nComputer chose:\n{scissors}\nYou Lose")
+
+
+
 
 
     
