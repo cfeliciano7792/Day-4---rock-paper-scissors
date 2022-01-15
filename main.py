@@ -52,8 +52,14 @@ elif user_choice == 1 and pc_choice == 1:
 elif user_choice == 1 and pc_choice == 2:
   print(f"{paper}\nComputer chose:\n{scissors}\nYou Lose")
 
+elif user_choice == 2 and pc_choice == 0:
+  print(f"{scissors}\nComputer chose:\n{rock}\nYou Lose")
 
+elif user_choice == 2 and pc_choice == 1:
+  print(f"{scissors}\nComputer chose:\n{paper}\nYou Win") 
 
+elif user_choice == 2 and pc_choice == 2:
+  print(f"{scissors}\nComputer chose:\n{scissors}\nTie Game")
 
 
     
